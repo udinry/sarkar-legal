@@ -1,7 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sarkar — Privacy Policy</title><style>:root{color-scheme:light dark;--bg:#f6f6f9;--fg:#14161f;--mut:#4e5364;--acc:#3d5afe}@media(prefers-color-scheme:dark){:root{--bg:#0b0c10;--fg:#f2f3f8;--mut:#b0b5c4;--acc:#8ea2ff}}
 body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 -apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif}main{max-width:44rem;margin:0 auto;padding:2.5rem 1.25rem 4rem}
 h1{font:600 2.2rem/1.2 "New York",Georgia,serif;margin:0 0 .5rem}h2{font-size:1.15rem;margin:2rem 0 .25rem}p{margin:.4rem 0;color:var(--mut)}a{color:var(--acc)}nav{margin-bottom:2rem}nav a{margin-right:1.2rem}</style></head><body><main><nav><a href="./">Sarkar</a><a href="privacy.html">Privacy policy</a></nav><h1>Sarkar Privacy Policy</h1>
-<p><em>Last updated: 10 November 2026</em></p>
+<p><em>Last updated: 11 November 2026</em></p>
 <p>Sarkar is made by Udbhav Naryani.</p>
 <p><strong>The short version:</strong> the developer collects no data. Data you create stays on your device, and the app connects only to services you choose.</p>
 <h2>No data collection by the developer</h2>
@@ -14,6 +14,7 @@ h1{font:600 2.2rem/1.2 "New York",Georgia,serif;margin:0 0 .5rem}h2{font-size:1.
 <li><strong>Your owner dashboard server.</strong> You enter its URL and password. It shows your stats and alerts. To deliver push notifications, the dashboard stores your device's push token, and notifications are sent through Apple Push Notification service.</li>
 <li><strong>App Store Connect.</strong> With the API key you import, the app shows your apps, reviews and sales. The key is stored in your device's Keychain.</li>
 <li><strong>Apple WeatherKit.</strong> Your approximate location is used to get the weather for your briefing.</li>
+<li><strong>Gmail (optional).</strong> If you sign in with Google in the Mail tab, Sarkar reads and manages your Gmail directly from your device using the Gmail API. Your mail is held in memory on the device; Sarkar does not copy it to any server of ours. Sign-in tokens are kept in your device's Keychain, and signing out (or Delete all data) revokes them.</li>
 <li><strong>Websites you add to Uptime monitoring.</strong></li>
 </ul>
 <h2>Calendar, reminders and Health</h2>
@@ -31,6 +32,13 @@ h1{font:600 2.2rem/1.2 "New York",Georgia,serif;margin:0 0 .5rem}h2{font-size:1.
 <p>Our relay checks that you are signed in to your own dashboard and counts usage for a monthly spending cap. It does not store or log the content of requests or answers. Anthropic processes the request under its <a href="https://www.anthropic.com/legal/privacy">API terms</a>.</p>
 <p>Vault items are never sent. Voice is transcribed on your device, and only the resulting text is sent.</p>
 <p>On-device AI (Apple Intelligence) features run entirely on the device.</p>
+<h2>Gmail and Google user data</h2>
+<p>Sarkar's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+<ul>
+<li>Gmail data is used only to show, search, send and organise your mail inside Sarkar, which is the user-facing feature you asked for.</li>
+<li>Mail content goes to Anthropic's Claude (through our relay) only when you tap a mail AI action (catch up, prioritise, summarise, smart reply, write for me, extract) or ask the chat about your mail, and only the messages involved are sent. It is not stored by us.</li>
+<li>Gmail data is not used for advertising, is not sold or transferred to others except as needed to provide these features you request, and is not used to train AI models. No person at the developer reads your mail.</li>
+</ul>
 <h2>Your data, your control</h2>
 <p>Export everything with Settings → Export everything. Delete all data with Settings → Delete all data. Deleting the app removes everything.</p>
 <h2>Children</h2>
